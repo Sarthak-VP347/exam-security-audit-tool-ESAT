@@ -1,0 +1,97 @@
+╔══════════════════════════════════════════════════════════╗
+║          EXAM SECURITY AUDIT REPORT                     ║
+╚══════════════════════════════════════════════════════════╝
+
+Generated  : 25/6/2026, 2:25:19 am
+Exam       : Jee Main Paper-1 
+Room / Lab : Lab B / Room $
+Type       : CBT
+Status     : BLOCKED
+Passed     : 7
+Issues     : 11
+
+────────────────────────────────────────────────────────────
+CHECK RESULTS
+────────────────────────────────────────────────────────────
+
+[NETWORK]
+  [FAIL]  Internet connectivity blocked
+           Live internet is reachable. Block all external network access before exam.
+  [FAIL]  No external tabs open
+           2 tab(s) open to external URLs: https://github.com/Sarthak-VP347/exam-security-audit-tool-ESAT/tree/main/Sample%20Test%20Reports, https://gemini.google.com/app/e0f942858d51f348
+  [FAIL]  Local exam server reachable
+           Local exam server did not respond — check LAN connection
+  [FAIL]  AI/external domains DNS-blocked
+           2 of 2 blocked domains are still reachable
+
+[SYSTEM]
+  [PASS]  No remote desktop extensions
+           No remote desktop or RDP extensions found
+  [PASS]  No screen recording extensions
+           No screen recording extensions detected
+  [PASS]  No clipboard sync extensions
+           No clipboard sync extensions detected
+  [WARN]  No AI-assist extensions
+           5 non-whitelisted extension(s) active — review: McAfee® WebAdvisor, Google Docs Offline, Youtube Playback Speed Control…
+  [PASS]  Chrome browser up to date
+           Chrome 149.0.0.0 — version is current
+  [WARN]  USB storage ports locked
+           USB access block cannot be checked automatically — please verify manually
+
+[SOFTWARE]
+  [PASS]  Kiosk / fullscreen mode active
+           Single window, fullscreen — kiosk-like mode confirmed
+  [WARN]  Exam server SSL valid
+           Could not verify SSL on local server — confirm certificate manually
+  [PASS]  Question paper checksum
+           Paper checksum must be verified by exam software — mark manually
+  [FAIL]  AI chatbot sites blocked
+           3/4 AI domains reachable — enforce DNS/firewall blocking
+  [PASS]  Browser version logged
+           Running Chrome 149.0.0.0
+
+[HARDWARE]
+  [WARN]  Webcam / camera detected
+           Camera enumeration blocked — grant media permissions to verify
+  [WARN]  Bluetooth state
+           Bluetooth cannot be checked via browser — verify in OS Device Manager
+
+[VENUE]
+  [WARN]  Signal jammer status
+           Signal jammer status must be confirmed physically by invigilator
+
+────────────────────────────────────────────────────────────
+AUDIT LOG
+────────────────────────────────────────────────────────────
+[02:25:09]  Audit started — Jee Main Paper-1  · Lab B / Room $
+[02:25:09]  FAIL  Internet connectivity blocked: Live internet is reachable. Block all external network access before exam.
+[02:25:09]  FAIL  No external tabs open: 2 tab(s) open to external URLs: https://github.com/Sarthak-VP347/exam-security-audit-tool-ESAT/tree/main/Sample%20Test%20Reports, https://gemini.google.com/app/e0f942858d51f348
+[02:25:12]  FAIL  Local exam server reachable: Local exam server did not respond — check LAN connection
+[02:25:12]  FAIL  AI/external domains DNS-blocked: 2 of 2 blocked domains are still reachable
+[02:25:12]  PASS  No remote desktop extensions
+[02:25:12]  PASS  No screen recording extensions
+[02:25:12]  PASS  No clipboard sync extensions
+[02:25:12]  WARN  No AI-assist extensions: 5 non-whitelisted extension(s) active — review: McAfee® WebAdvisor, Google Docs Offline, Youtube Playback Speed Control…
+[02:25:12]  PASS  Chrome browser up to date
+[02:25:12]  WARN  USB storage ports locked: USB access block cannot be checked automatically — please verify manually
+[02:25:12]  PASS  Kiosk / fullscreen mode active
+[02:25:15]  WARN  Exam server SSL valid: Could not verify SSL on local server — confirm certificate manually
+[02:25:15]  PASS  Question paper checksum
+[02:25:16]  FAIL  AI chatbot sites blocked: 3/4 AI domains reachable — enforce DNS/firewall blocking
+[02:25:16]  PASS  Browser version logged
+[02:25:16]  WARN  Webcam / camera detected: Camera enumeration blocked — grant media permissions to verify
+[02:25:16]  WARN  Bluetooth state: Bluetooth cannot be checked via browser — verify in OS Device Manager
+[02:25:16]  WARN  Signal jammer status: Signal jammer status must be confirmed physically by invigilator
+[02:25:16]  Audit complete — 7 passed · 6 warned · 5 failed
+
+────────────────────────────────────────────────────────────
+INVIGILATOR SIGN-OFF
+
+Name   : ________________________________
+Sign   : ________________________________
+Date   : ________________________________
+
+Superintendent acknowledgement:
+
+Name   : ________________________________
+Sign   : ________________________________
