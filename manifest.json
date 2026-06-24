@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Exam Security Audit Tool 2 ",
+  "version": "1.0.2",
+  "description": "Pre-examination vulnerability scanner for invigilators and technicians. Runs fully offline.",
+  "permissions": [
+    "system.cpu",
+    "system.memory",
+    "system.display",
+    "processes",
+    "storage",
+    "tabs",
+    "scripting",
+    "management"
+  ],
+  "host_permissions": [
+    "http://192.168.1.*/*",
+    "https://192.168.1.*/*",
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "Exam Security Audit"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
