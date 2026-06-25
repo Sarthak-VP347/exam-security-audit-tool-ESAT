@@ -20,9 +20,9 @@ The project is split into a front-end UI layer and a background service worker. 
 ```mermaid
 graph LR
     %% Define Styles
-    classDef ui fill:#e1f5fe,stroke:#0288d1,stroke-width:2px;
-    classDef bg fill:#e8f5e9,stroke:#388e3c,stroke-width:2px;
-    classDef test fill:#fff3e0,stroke:#f57c00,stroke-width:2px;
+    classDef ui fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#000000;
+    classDef bg fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#000000;
+    classDef test fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#000000;
 
     %% Components
     UI[Front-End Interface / Popup UI]:::ui
