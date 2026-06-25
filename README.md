@@ -2,6 +2,17 @@
 A pre-examination security auditing and compliance verification in CBT(Computer Based Testing) environments. A vulnerability scanner for invigilators and technicians to ensure a complete cut-off of computer system from external Networks or Connections.
 
 **Runs fully offline** — no data ever leaves the device.
+
+## Installation Guidelines
+
+1. Download all source code files (i.e. Background.js , manifest.json , popup.css , popup.html and popup.js) and Save them in   a Single folder.
+2. Open Chrome and go to `chrome://extensions`
+3. Enable **Developer mode** (toggle option on top right)
+4. Click **Load unpacked**
+5. Select this folder (`exam-audit-extension`)
+6. The shield icon appears in your toolbar , pin it for easy access
+
+
 ## Architecture
 
 The project is split into a front-end UI layer and a background service worker. Below is a live diagram showing how data passes between your user interface and the background controller:
