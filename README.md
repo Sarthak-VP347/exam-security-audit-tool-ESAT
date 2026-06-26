@@ -48,10 +48,10 @@ graph LR
 ```
 **background.js:** Runs as a background processing. It handles the core operational logic via an optimized dictionary router (CHECK_ROUTER) and a unified network probing helper (ping), returning clean, easily understandable status data directly to the viewport.
 
-**UI Component:** Sequentially triggerss security tests in sequences, listening for background callbacks to update system indicators in real time.
+**UI Component:** Sequentially triggers security tests in sequences, listening for background callbacks to update system indicators in real time.
 
 **What it checks ?**
-18 checks across 5 domains as foollows...
+18 checks across 5 domains as follows...
 ### Network & Connectivity
 | # | Check | Method |
 |---|-------|--------|
