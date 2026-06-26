@@ -5,7 +5,7 @@ A pre-examination security auditing and compliance verification in CBT(Computer 
 
 ## Installation Guidelines
 
-1. Download all source code files (i.e. Background.js , manifest.json , popup.css , popup.html and popup.js) and Save them in   a Single folder.
+1. Download all source code files (i.e. Background.js , manifest.json , popup.css , popup.html and popup.js) and Save them in a Single folder, naming it as (`exam-audit-extension`).
 2. Open Chrome and go to `chrome://extensions`
 3. Enable **Developer mode** (toggle option on top right)
 4. Click **Load unpacked**
@@ -136,7 +136,7 @@ For deeper OS leveled checks, this can be combined with the companion Python aud
 ## Possible advancements in this tool :
 
 - [ ] Whitelist of approved extension IDs per board (NTA/CBSE configurable)
-- [ ] Automatic re-scan every N minutes during exam
+- [ ] Automatic re-scan every N minutes during exam.
 - [ ] Companion Python script for OS-leveled process and port checks
 - [ ] PDF report generation with digital signature support
 - [ ] Multi-seat dashboard for centre superintendent
